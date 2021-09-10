@@ -1,0 +1,1 @@
+vector<double> mAIN(vector<double>& a)

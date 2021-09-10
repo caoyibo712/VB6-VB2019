@@ -5,16 +5,16 @@ struct Xy{
 
 
 
-class vector{
+class vecter{
       public:
-            vector operator+(vector& a,vector& b){
-                  vector v;
+            vector operator+(vecter& a,vecter& b){
+                  vecter v;
                   v.thisXy.x =a.thisXy.x +b.thisXy.x
                   v.thisXy.y =a.thisXy.y +b.thisXy.y
                   return v;
             }
-            vector operator-(vector& a,vector& b){
-                  vector v;
+            vector operator-(vecter& a,vecter& b){
+                  vecter v;
                   v.thisXy.x =a.thisXy.x -b.thisXy.x
                   v.thisXy.y =a.thisXy.y -b.thisXy.y
                   return v;
