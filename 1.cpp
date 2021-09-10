@@ -9,14 +9,14 @@ class vector{
       public:
             vector operator+(vector& a,vector& b){
                   vector v;
-                  v.Xy.x =a.Xy.x +b.Xy.x
-                  v.Xy.y =a.Xy.y +b.Xy.y
+                  v.thisXy.x =a.thisXy.x +b.thisXy.x
+                  v.thisXy.y =a.thisXy.y +b.thisXy.y
                   return v;
             }
             vector operator-(vector& a,vector& b){
                   vector v;
-                  v.Xy.x =a.Xy.x -b.Xy.x
-                  v.Xy.y =a.Xy.y -b.Xy.y
+                  v.thisXy.x =a.thisXy.x -b.thisXy.x
+                  v.thisXy.y =a.thisXy.y -b.thisXy.y
                   return v;
             }
 
